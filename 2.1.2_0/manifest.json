@@ -1,0 +1,33 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "icons/action_16.png",
+         "32": "icons/action_32.png"
+      }
+   },
+   "chrome_url_overrides": {
+      "newtab": "index.html"
+   },
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
+   "description": "Daily gathers the latest dev & tech posts in your new tab",
+   "homepage_url": "https://www.dailynow.co",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "48": "icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApCBm5ZiKOrD2RItelmnDSCySy3mbVO9ssIqYdL2mnH+LtjH/Sv4Mems5VxFWUYBNYuDbzD7y3wGcP6T917VuYe0VPLsCF6bjJ/dNwiCScS0plJBSwqBdqnkajVdfkqElftGopeqj/WqPuMUAHIOZCaunh5IgLnML1P2RH4GNKpqyy1/Uh6gcIQsnyprKq9AhL/hI27cQD6ap762T1Q1c+tvllRJHQFn7dCvNjPBDsx4Fm5dTwrF3JYRNcABNoO7p1Mie4md7Ky9Zn86mKw17YkT1bR9kx6ZmyQB2e3H8I9XAH0XEb1wLI3En/roanIti7dUExze9FwAcZUlRTvmecQIDAQAB",
+   "manifest_version": 2,
+   "name": "Daily 2.0 - Source for Busy Developers",
+   "offline_enabled": true,
+   "optional_permissions": [ "topSites" ],
+   "permissions": [ "storage", "alarms" ],
+   "short_name": "Daily 2.0",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.2",
+   "web_accessible_resources": [ "index.html" ]
+}

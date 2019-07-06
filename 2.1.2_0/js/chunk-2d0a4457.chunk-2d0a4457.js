@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0a4457"],{"0672":function(a,e,i){var d=i("e38e");d.register({arrow:{width:24,height:24,viewBox:"0 0 24 24",data:'<path pid="0" d="M12 11.545L7.176 16.37a1.86 1.86 0 1 1-2.631-2.631l6.077-6.077a1.949 1.949 0 0 1 2.756 0l6.077 6.077a1.86 1.86 0 1 1-2.631 2.63L12 11.546z" _fill="#FFF" fill-rule="evenodd"/>'}})}}]);
